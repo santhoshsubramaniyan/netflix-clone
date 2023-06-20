@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --clr-black: #000000;
+  --clr-white: #f3f3f3;
+  --clr-red: #e50914;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  border: 2px soild #e50914;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+/* project css */
+
+.header {
+  height: 85vh;
+  width: 100vw;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("../images/background.jpg");
+
+  border-bottom: 10px solid #333333;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menu-container {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  width: 140px;
+}
+
+.hero-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hero-tittle {
+  font-size: 1.75rem;
+}
+
+.hero-subtittle {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.header-cta-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hero-email-input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.section {
+  padding: 1.75rem 2.5rem;
+  margin: 1rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 10px solid #333333;
+}
+
+.section-tittle {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section-description {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.section-right-container {
+  padding: 1rem;
+}
+.faq-section {
+  padding: 2rem 0;
+}
+
+.question-item {
+  height: 3rem;
+  padding: 0.85rem;
+  background-color: #333;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-item-hover {
+  cursor: pointer;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.icon-plus {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.faq-cta-container {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer {
+  padding: 2rem;
+  margin: 1rem auto;
+  color: rgba(111, 111, 111);
+}
+
+.question-text,
+.copy-right-text {
+  display: inline-block;
+  margin: 1rem auto;
+}
+
+.question-text a {
+  color: rgba(111, 111, 111);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.question-text a:hover {
+  text-decoration: underline;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 1rem auto;
+  gap: 1rem;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  width: 30%;
+}
+
+.footer-link-container-4 {
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+
+  margin-bottom: 3rem;
+}
+
+.footer-link-container-4 .footer-link {
+  width: 30%;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 425px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 991px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
